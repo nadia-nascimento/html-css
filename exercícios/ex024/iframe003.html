@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+</head>
+<body>
+    
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 90vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+    <h1>Faça uma escolha</h1>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas iusto non magnam odit tenetur autem ut perspiciatis esse aliquam ratione, earum deleniti eligendi ea provident corporis, voluptatem vero laborum repudiandae.
+    </p>
+
+    <ul>
+        <li> <a href="paginas-extras/pagina001.html" target="frame">Primeira pagina</a></li>
+        <li> <a href="paginas-extras/pagina002.html" target="frame">Seguna pagina</a></li>
+        <li> <a href="paginas-extras/pagina003.html" target="frame">Terceira pagina</a></li>
+    </ul>
+
+    <iframe id="tela" name="frame" srcdoc="<h1> Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas quae reiciendis dolor</p><img src='imagens/bugdroid.png'>">
+        <p>Infelizmente seu computador não é compatível com isso</p>
+    </iframe> 
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas ad voluptate obcaecati eaque quia rem? Possimus quae reiciendis dolor explicabo vero voluptatem quaerat mollitia, dicta ab ut repudiandae sint sapiente?
+    </p>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, impedit, consectetur voluptatibus error eaque velit iste deserunt sed voluptates maxime, quaerat nihil dolorum facere veritatis nulla soluta est unde quasi.</p>
+</body>
+</html>
