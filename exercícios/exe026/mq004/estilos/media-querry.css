@@ -19,7 +19,7 @@ Grandes telas: acima de 1200px
 
    body{
     background-image: url(../imagens/back-print.jpg);
-   }      /*DESNECESSÁRIO USAR BACKGROUND-IMAGE*/
+   }      /*DESNECESSÁRIO USAR BACKGROUND-IMAGE*, pois a impressora não imprime background/
 
     main{
         width: 90vw;
